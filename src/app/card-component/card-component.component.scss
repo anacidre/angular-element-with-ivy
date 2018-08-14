@@ -1,0 +1,32 @@
+.main__shadow {
+    /* Applies if the host is a <bb-red-strawberry> element.*/
+    width: 320px;
+    height: 300px;
+    background-color: var(--background-color, #fff);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+      0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+  
+    .shadow__image {
+      width: 320px;
+      height: 220px;
+      object-fit: cover;
+      border-top-left-radius: 2px;
+      border-top-right-radius: 2px;
+    }
+  
+    .shadow__info {
+      font-family: "Lato", sans-serif;
+      padding: 1% 4% 0 4%;
+      color: var(--color, #4a4a4a);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      .shadow__title {
+        font-size: 1em;
+      }
+      .shadow__description {
+        font-size: 0.7em;
+      }
+    }
+  }
+  
